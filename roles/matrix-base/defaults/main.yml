@@ -6,7 +6,7 @@
 # Installation happens on another server ("matrix.<matrix-domain>", see `matrix_server_fqn_matrix`).
 #
 # Example value: example.com
-matrix_domain: ~
+matrix_domain: justdrake.com
 
 # This will contain the homeserver implementation that is in use.
 # Valid values: synapse, dendrite
@@ -18,7 +18,7 @@ matrix_domain: ~
 matrix_homeserver_implementation: synapse
 
 # This contains a secret, which is used for generating various other secrets later on.
-matrix_homeserver_generic_secret_key: ''
+matrix_homeserver_generic_secret_key: 'ProjectNexus22!'
 
 # This is where your data lives and what we set up.
 # This and the Element FQN (see below) are expected to be on the same server.
